@@ -1,0 +1,71 @@
+.identity {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 3%;
+}
+
+.identity .loginPage {
+    background-color: rgba(254, 251, 251, 0.872);
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw 0;
+    width: 40%;
+    padding: 5vw 0;
+    border-radius: 5px;
+    border: 2px solid #45a049;
+}
+ 
+ 
+.identity .loginPage h1 {
+    font-size: 5vw;
+    margin-top: -2rem;
+    /* margin-bottom: 2vw; */
+    color: #444;
+}
+
+.identity .loginPage h1 span {
+    color: #45a049;
+}
+
+.identity .loginPage label {
+    width: 60%;
+    margin: .5vw 0;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #444;
+}
+
+.identity .loginPage input {
+    height: 2.5vw;
+    width: 90%;
+    padding: 0 1vw;
+    font-size: 1.2vw;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+
+.identity .loginPage button {
+    padding: .5vw 2vw;
+    font-size: 1.4vw;
+    font-weight: bold;
+    background: linear-gradient(45deg, #6bc570, #45a049);
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-top: 2vw;
+    transition: scale .5s ease;
+}
+
+.identity .loginPage button:active {
+    scale: 1.05;
+}

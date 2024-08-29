@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div>
+        <div class="identity">
+            <form class="loginPage" method="post" action="/signup">
+                <h1>Sign<Span>Up</Span></h1>
+                <label for="email" >Email Id :
+                    <input type="email" id="email" name="email" placeholder="Enter Email.." required>
+                </label>
+
+                <label for="ph_num" >Phone_num :
+                    <input type="number" id="ph_num" name="ph_num" placeholder="Enter phone number.." required>
+                </label>
+
+                <label for="password">Password :
+                    <input type="password" id="password" name="pass" placeholder="Enter password.." required>
+                </label>
+                <button id="submit">SignUp</button>
+            </form>
+
+            <p>You Have an allrady <a href="http://localhost:3000/login">signIn</a></p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        document.getElementById("submit").addEventListener("click",()=>{
+            console.conform("Your account will be created succecfully")
+        })
+    </script>
+</body>
+
+</html>
